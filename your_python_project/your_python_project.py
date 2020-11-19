@@ -25,3 +25,8 @@ def say_hello(name='World'):
 
 def giva_me_a_range():
     return np.arange(1, 10) + 1e-10
+
+
+def return_sine():
+    times = np.arange(0, 2*np.pi)
+    return np.sin(times)
